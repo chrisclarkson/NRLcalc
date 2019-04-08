@@ -1,7 +1,6 @@
 # Nucleosome_repeat_length_near_transcription_factors
 
-# Paper Title
-What determines the decrease in nucleosome repeat length near bound CTCF?
+# Paper Title: What determines the decrease in nucleosome repeat length near bound CTCF?
 
 # Abstract
 'Nucleosome repeat length (NRL) defines the average distance between adjacent nucleosomes. When calculated for specific
