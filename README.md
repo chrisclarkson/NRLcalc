@@ -17,7 +17,7 @@ Smarca4, Chd4, EP400, Chd8 and BRG1. Importantly, we show that Chd8 alone can br
 
 
 # data
-Contains example phasogram text files used in NRL calculations.
+Contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
 
 # scripts
 Contains code that went into the preparation, processing and interpretation of the data.
