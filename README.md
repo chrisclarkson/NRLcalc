@@ -15,3 +15,15 @@ latter effect holds true both for the CTCF binding strength predicted from the D
 observed binding site occupancy in ESCs. Stronger CTCF binding leads to more efficient recruitment of chromatin remodellers 
 Smarca4, Chd4, EP400, Chd8 and BRG1. Importantly, we show that Chd8 alone can bring about the NRL decrease near CTCF.'
 
+
+# Prerequisites
+R
+BiocManager::install("GenomicRanges")
+BiocManager::install("AnnotationHub")
+BiocManager::install("TFBSTools")
+BiocManager::install("JASPAR2018")
+BiocManager::install("TFBSTools")
+BiocManager::install("BSgenome.Mmusculus.UCSC.mm9") 
+install.packages("devtools")
+devtools::install_github("matthuska/tRap")
+
