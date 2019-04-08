@@ -2,7 +2,7 @@
 
 Code used from the paper 'What determines the decrease in nucleosome repeat length near bound CTCF?'
 
-# Abstract
+# Description
 Nucleosome Repeat Length (NRL) is a calculation that I have had to perform many times throughout my PhD.
 
 This measurement serves as a metric for nucleosome packing density for a piece of chromatin.
