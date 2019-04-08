@@ -17,7 +17,8 @@ Smarca4, Chd4, EP400, Chd8 and BRG1. Importantly, we show that Chd8 alone can br
 
 
 # Prerequisites
-R
+
+```R
 BiocManager::install("GenomicRanges")
 BiocManager::install("AnnotationHub")
 BiocManager::install("TFBSTools")
@@ -26,4 +27,4 @@ BiocManager::install("TFBSTools")
 BiocManager::install("BSgenome.Mmusculus.UCSC.mm9") 
 install.packages("devtools")
 devtools::install_github("matthuska/tRap")
-
+```
