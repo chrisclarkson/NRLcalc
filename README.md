@@ -1,6 +1,9 @@
 # Nucleosome_repeat_length_near_transcription_factors
+
+# Paper Title
 What determines the decrease in nucleosome repeat length near bound CTCF?
 
+# Abstract
 'Nucleosome repeat length (NRL) defines the average distance between adjacent nucleosomes. When calculated for specific
 genomic regions, NRL reflects the local nucleosome ordering and characterises its changes e.g. during cell differentiation. 
 One of the strongest nucleosome positioning signals is provided by CTCF, the architectural protein that sets a decreased NRL 
@@ -18,7 +21,12 @@ Smarca4, Chd4, EP400, Chd8 and BRG1. Importantly, we show that Chd8 alone can br
 
 # Prerequisites
 
-```R
+```
+git clone https://github.com/arq5x/bedtools2
+git https://github.com/homeveg/nuctools
+git clone https://github.com/chrisclarkson/nuctools_shiny # got to page for prerequisite installations and instructions
+
+R
 BiocManager::install("GenomicRanges")
 BiocManager::install("AnnotationHub")
 BiocManager::install("TFBSTools")
