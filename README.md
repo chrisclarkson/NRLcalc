@@ -9,7 +9,21 @@ It involves manual point/peak picking on a plot called a phasogram. Having done 
 The applet 'NRLcalc' allows one to interactively click and pick points on phasograms, and easily calculate the NRL value for many different phasograms by use of a 'Next' and 'Back' button. NRLcalc was made using shiny.
 
 # NRLcalc.R
+ls data/*aggregate.txt > data/files #list all files with phasogram data in 'files'
 
+#the Rscript will read 'files' and can then the app can be run
+
+
+R
+install.packages('shiny')
+
+install.packages('zoo')
+
+install.packages('plyr')
+
+Rscript NRL_multiple_files.R
+
+# Data and scripts
 
 Also I have provided exemplary scripts and data used in my paper: 'What determines the decrease in nucleosome repeat length near bound CTCF?'- See description below:
 
@@ -17,25 +31,8 @@ Also I have provided exemplary scripts and data used in my paper: 'What determin
 Directory contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
 
 # scripts
-Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'
+Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'. Also please install all prerequisites for this code (specified in prerequisite_installations.sh).
 
-# Prerequisites
-
-```
-git clone https://github.com/arq5x/bedtools2 #bedtools
-git https://github.com/homeveg/nuctools #nuctools
-git clone https://github.com/chrisclarkson/nuctools_shiny # go to page for prerequisite installations and instructions
-
-R
-BiocManager::install("GenomicRanges")
-BiocManager::install("AnnotationHub")
-BiocManager::install("TFBSTools")
-BiocManager::install("JASPAR2018")
-BiocManager::install("TFBSTools")
-BiocManager::install("BSgenome.Mmusculus.UCSC.mm9") 
-install.packages("devtools")
-devtools::install_github("matthuska/tRap")
-```
 
 # FigureS1
 ![embed](https://github.com/chrisclarkson/pics/blob/master/FigureS1.png)
