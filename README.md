@@ -9,10 +9,10 @@ It involves manual point/peak picking on a plot called a phasogram. Having done 
 The applet 'NRLcalc' allows one to interactively click and pick points on phasograms, and easily calculate the NRL value for many different phasograms by use of a 'Next' and 'Back' button. NRLcalc was made using shiny.
 
 # NRLcalc.R
+```
 ls data/*aggregate.txt > data/files #list all files with phasogram data in 'files'
 
 #the Rscript will read 'files' and can then the app can be run
-
 
 R
 install.packages('shiny')
@@ -21,7 +21,8 @@ install.packages('zoo')
 
 install.packages('plyr')
 
-Rscript NRL_multiple_files.R
+Rscript NRLcalc.R
+```
 
 # Data and scripts
 
