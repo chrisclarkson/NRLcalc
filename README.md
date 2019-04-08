@@ -37,4 +37,4 @@ install.packages("devtools")
 devtools::install_github("matthuska/tRap")
 ```
 
-![](https://github.com/chrisclarkson/pics/blob/master/FigureS1.pdf)
+[embed](https://github.com/chrisclarkson/pics/blob/master/FigureS1.pdf)[/embed]
