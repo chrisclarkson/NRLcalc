@@ -15,10 +15,10 @@ This applet saved me a lot of time.
 
 
 # data
-Contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
+Directory contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
 
 # scripts
-Contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'
+Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'
 
 # Prerequisites
 
