@@ -6,7 +6,7 @@
 #$ -e /dev/null
 
 N=${SGE_TASK_ID}
-cd data/
+cd ../data/
 info=`head NRL_combinations.txt -n ${N} | tail -n -1`
 pair=($info)
 tf=${pair[0]}
