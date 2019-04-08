@@ -1,7 +1,5 @@
-library(AnnotationHub)
 library(TFBSTools)
 library(JASPAR2018)
-library(TFBSTools)
 library("BSgenome.Mmusculus.UCSC.mm9") 
 library(GenomicRanges)
 library(tRap)
