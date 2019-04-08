@@ -1,5 +1,3 @@
-# Nucleosome_repeat_length_near_transcription_factors
-
 # Paper Title: What determines the decrease in nucleosome repeat length near bound CTCF?
 
 # Abstract
@@ -21,9 +19,9 @@ Smarca4, Chd4, EP400, Chd8 and BRG1. Importantly, we show that Chd8 alone can br
 # Prerequisites
 
 ```
-git clone https://github.com/arq5x/bedtools2
-git https://github.com/homeveg/nuctools
-git clone https://github.com/chrisclarkson/nuctools_shiny # got to page for prerequisite installations and instructions
+git clone https://github.com/arq5x/bedtools2 #bedtools
+git https://github.com/homeveg/nuctools #nuctools
+git clone https://github.com/chrisclarkson/nuctools_shiny # go to page for prerequisite installations and instructions
 
 R
 BiocManager::install("GenomicRanges")
