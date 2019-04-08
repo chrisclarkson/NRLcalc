@@ -30,10 +30,10 @@ Rscript NRLcalc.R
 
 Also I have provided exemplary scripts and data used in my paper: 'What determines the decrease in nucleosome repeat length near bound CTCF?'- See description below:
 
-# data
+`data`
 Directory contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
 
-# scripts
+`scripts`
 Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'. Also please install all prerequisites for this code (specified in prerequisites_scripts.sh).
 
 
