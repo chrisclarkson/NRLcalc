@@ -1,6 +1,7 @@
 library(plyr)
 library(zoo)
 library(shiny)
+setwd('data/')
 filed=read.table('files')
 ui <- fluidPage(
   actionButton("nex","next"),
