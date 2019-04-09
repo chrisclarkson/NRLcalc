@@ -39,3 +39,4 @@ Directory contains code that went into the preparation, processing and interpret
 
 # FigureS1
 ![embed](https://github.com/chrisclarkson/pics/blob/master/FigureS1.png)
+![](https://github.com/chrisclarkson/pics/blob/master/app_demo_for_gif.gif)
