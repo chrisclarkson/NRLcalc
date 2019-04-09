@@ -23,7 +23,9 @@ install.packages('zoo')
 
 install.packages('plyr')
 
-Rscript NRLcalc.R
+Rscript NRLcalc.R #returns a url ID- "http://127.0.0.1:XXXX" which can be copied and pasted into your browser to use app.
+
+###NOTE can also be run from RStudio- with the provided 'RunApp' button
 ```
 
 # Data and scripts
