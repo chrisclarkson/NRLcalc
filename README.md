@@ -37,6 +37,5 @@ Directory contains example phasogram text files used in NRL calculations for CTC
 Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'. Also please install all prerequisites for this code (specified in prerequisites_scripts.sh).
 
 
-# FigureS1
-![embed](https://github.com/chrisclarkson/pics/blob/master/FigureS1.png)
+# Demonstration
 ![](https://github.com/chrisclarkson/pics/blob/master/ezgif.com-video-to-gif-2.gif)
