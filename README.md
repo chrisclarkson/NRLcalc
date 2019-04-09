@@ -8,7 +8,7 @@ This measurement serves as a metric for nucleosome packing density for a piece o
 
 It involves manual point/peak picking on a plot called a phasogram. 
 Having done this for many different phasograms in my work on the paper 'What determines the decrease in nucleosome repeat length near bound CTCF?', I needed an easy way to go through them with relative ease and efficiency.
-The applet 'NRLcalc.R' allows one to interactively click and pick points on each plot, and easily calculate the NRL value for many different phasograms by use of a 'Next' and 'Back' button. NRLcalc was made using shiny.
+The applet 'NRLcalc.R' allows one to interactively click and pick points on each plot, and easily calculate the NRL value for many different phasograms by use of a 'Next' and 'Back' button. NRLcalc was made using [shiny](https://shiny.rstudio.com).
 
 # NRLcalc.R
 ```
