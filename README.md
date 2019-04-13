@@ -1,14 +1,14 @@
-# NRLcalc: calculation of the nucleosome repeat length
+# NRLcalc: calculation of the Nucleosome Repeat Length
 
-Code used from the paper 'What determines the decrease in nucleosome repeat length near bound CTCF?'
+The NRLcalc app provides a visual interface for the bulk calculation of the Nucleosome Repeat Length (NRL) based on multiple phasograms computed with NucTools (https://github.com/homeveg/nuctools)
 
 # Description
-Nucleosome Repeat Length (NRL) is a calculation that I have had to perform many times throughout my PhD.
-This measurement serves as a metric for nucleosome packing density for a piece of chromatin.
 
-It involves manual point/peak picking on a plot called a phasogram. 
-Having done this for many different phasograms in my work on the paper 'What determines the decrease in nucleosome repeat length near bound CTCF?', I needed an easy way to go through them with relative ease and efficiency.
-The applet 'NRLcalc.R' allows one to interactively click and pick points on each plot, and easily calculate the NRL value for many different phasograms by use of a 'Next' and 'Back' button. NRLcalc was made using [shiny](https://shiny.rstudio.com).
+Nucleosomes are positioned along the genome in a non-random and non-homogeneous way, which is critical for determining the DNA accessibility and maintaining fluid 3D genome organisation. A classical parameter characterising the nucleosome spacing is the nucleosome repeat length (NRL), defined as the average distance between the centres of adjacent nucleosomes. NRL can be defined genome-wide, locally for an individual genomic region or for a set of regions. The local NRL is particularly important, since it reflects different structures of chromatin fibers and characterises their changes e.g. during cell differentiation. 
+
+Our analysis is based on the “phasogram” type of NRL calculation with NucTools (https://github.com/homeveg/nuctools). The idea of this method is to consider all mapped nucleosome reads within the genomic region of interest and calculate the distribution of the distances between nucleosome dyads. This distribution typically shows peaks corresponding to the prevailing distance between two nearest neighbour nucleosomes followed by the distances between next neighbours. The slope of the line resulting from the linear fit of the positions of the peaks then gives the NRL. When the analysis requires calculating just one or few NRLs the procedure described above can be easily performed in a number of applications allowing linear fitting. The situation becomes more tricky if we have to perform a bulk calculation of many NRLs. 
+
+The applet 'NRLcalc.R' solves this problem by providing a visual interface to load multiple phasograms and calculating NRLs for each of them in an interactive, user-friendly way. NLcalcis based on the R framework [shiny](https://shiny.rstudio.com). It allows one to load maltiple phasograms, adjust the smoothing of the signal, perform interactive peak calling for each plot, switch between different phasograms by using the 'Next' and 'Back' buttons, etc. The animated gif below demonstrates how the applet works.
 
 # NRLcalc.R
 ```
@@ -30,14 +30,16 @@ Rscript NRLcalc.R #returns a url ID- "http://127.0.0.1:XXXX" which can be copied
 
 # Data and scripts
 
-Also I have provided exemplary scripts and data used in my paper: 'What determines the decrease in nucleosome repeat length near bound CTCF?'- See description below:
+I have provided exemple scripts and data as listed below:
 
 `data`
 Directory contains example phasogram text files used in NRL calculations for CTCF predicted binding sites.
 
 `scripts`
-Directory contains code that went into the preparation, processing and interpretation of the data. Can all be run sequentially from 'step_by_step.sh'. Also please install all prerequisites for this code (specified in prerequisites_scripts.sh).
+Directory contains code the codes used in our manuscript preparation. These can be run sequentially from 'step_by_step.sh'. The prerequisites required for the applet are specified in 'prerequisites_scripts.sh'.
 
+# Citation
+Christopher T. Clarkson, Emma A. Deeks, Ralph Samarista, Victor B. Zhurkin and Vladimir B. Teif (2019) "What determines the decrease in nucleosome repeat length near bound CTCF?" (preprint will be soon available on https://www.biorxiv.org/) 
 
 # Demonstration
 ![](https://github.com/chrisclarkson/pics/blob/master/ezgif.com-video-to-gif-3.gif)
