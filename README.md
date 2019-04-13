@@ -40,4 +40,4 @@ Directory contains code that went into the preparation, processing and interpret
 
 
 # Demonstration
-![](https://github.com/chrisclarkson/pics/blob/master/ezgif.com-video-to-gif-2.gif)
+![](https://github.com/chrisclarkson/pics/blob/master/ezgif.com-video-to-gif.gif)
