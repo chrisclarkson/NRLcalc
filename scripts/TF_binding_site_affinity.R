@@ -16,7 +16,7 @@ jaspar <- function (collection = "CORE", ...)
   return(out)
 }
 pfms <- jaspar()
-
+seq=getSeq(Mmusculus)
 #chrom_sizes=read.table('/storage/projects/teif/mm9_generic_data/mm9.genome_21',header=F,stringsAsFactors=F)
 chrom_sizes=data.frame(names(seq),width(seq))[1:21,]
 tf_names=c()
