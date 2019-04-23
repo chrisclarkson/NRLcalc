@@ -21,7 +21,7 @@ seq=getSeq(Mmusculus)
 chrom_sizes=data.frame(names(seq),width(seq))[1:21,]
 tf_names=c()
 for(number in 1:length(pfms)){
-  pfm=pfms_sub[[number]]
+  pfm=pfms[[number]]
   tf=name(pfm)
   pwm=PWMatrix(ID="Unknown", name=tf, matrixClass="Unknown", strand="+", 
     bg=c(A=0.25, C=0.25, G=0.25, T=0.25), tags=list(), profileMatrix=as.matrix(pfm))
