@@ -39,7 +39,7 @@ Directory contains example phasogram text files used in NRL calculations for CTC
 Directory contains code the codes used in our manuscript preparation. These can be run sequentially from 'step_by_step.sh'. The prerequisites required for the applet are specified in 'prerequisites_scripts.sh'.
 
 # Citation
-Christopher T. Clarkson, Emma A. Deeks, Ralph Samarista, Victor B. Zhurkin and Vladimir B. Teif (2019) "What determines the decrease in nucleosome repeat length near bound CTCF?" ([link](https://academic.oup.com/nar/article/47/21/11181/5609524)) 
+Christopher T. Clarkson, Emma A. Deeks, Ralph Samarista, Victor B. Zhurkin and Vladimir B. Teif (2019) "CTCF-dependent chromatin boundaries formed by asymmetric nucleosome arrays with decreased linker length" ([link](https://academic.oup.com/nar/article/47/21/11181/5609524)) 
 
 # Demonstration
 ![](https://github.com/chrisclarkson/pics/blob/master/ezgif.com-video-to-gif-3.gif)
